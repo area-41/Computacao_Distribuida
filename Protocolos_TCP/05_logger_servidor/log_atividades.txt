@@ -1,0 +1,13 @@
+[2026-04-25 14:34:56] Conexão estabelecida com: ('127.0.0.1', 59678)
+[2026-04-25 14:35:27] Erro com ('127.0.0.1', 59678): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[2026-04-25 14:35:27] Conexão encerrada com ('127.0.0.1', 59678)
+[2026-04-25 14:36:36] Conexão estabelecida com: ('127.0.0.1', 59693)
+[2026-04-25 14:36:51] Cliente ('127.0.0.1', 59693) solicitou: ola
+[2026-04-25 14:36:57] Cliente ('127.0.0.1', 59693) solicitou: tchau
+[2026-04-25 14:37:00] Cliente ('127.0.0.1', 59693) solicitou: sair
+[2026-04-25 14:37:00] Conexão encerrada com ('127.0.0.1', 59693)
+[2026-04-25 14:48:14] Conexão estabelecida com: ('127.0.0.1', 59815)
+[2026-04-25 14:48:23] Cliente ('127.0.0.1', 59815) solicitou: ola
+[2026-04-25 14:48:30] Cliente ('127.0.0.1', 59815) solicitou: Testando o sinal
+[2026-04-25 14:48:33] Cliente ('127.0.0.1', 59815) solicitou: sair
+[2026-04-25 14:48:33] Conexão encerrada com ('127.0.0.1', 59815)
