@@ -1,5 +1,9 @@
 # Projeto de Redes: Chat Multi-Servidor com Relay TCP
 
+Vídeo do Chat: https://youtu.be/vndaYX5fkVg
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vndaYX5fkVg?si=JGhQuIThMHkYipRy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Olá! Este projeto foi desenvolvido para demonstrar como funciona a comunicação entre múltiplos clientes e servidores usando Sockets TCP e Threads em Python. 
 
 A ideia principal aqui é o conceito de **Relay (Ponte)**: um cliente se conecta a um servidor, que por sua vez repassa a mensagem para outro servidor central.
