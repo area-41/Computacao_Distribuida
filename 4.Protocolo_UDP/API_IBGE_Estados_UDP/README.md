@@ -2,6 +2,14 @@
 
 Este projeto implementa uma arquitetura de comunicação em rede utilizando o protocolo UDP, onde um cliente (Interface Gráfica) solicita a região geográfica de estados brasileiros a um servidor, que por sua vez consome a API oficial do IBGE.
 
+
+
+[![Assista ao vídeo](img/thumbnail.png)](https://www.youtube.com/watch?v=xjVzG6IpeBY)
+
+*Clique na imagem acima para assistir ao processo de desenvolvimento e solução dos erros.*
+
+Vídeo do Protocolo UDP: https://youtu.be/xjVzG6IpeBY
+
 ### Funcionalidades
 - Servidor Multithread: Capaz de processar múltiplas requisições simultâneas via threads.
 
