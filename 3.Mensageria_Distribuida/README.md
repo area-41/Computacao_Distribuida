@@ -22,6 +22,7 @@ O sistema é composto por quatro partes que se conectam em "cascata":
 2.  **Servidor 01 (O Relay)**: Recebe do Cliente 01 e repassa para o Servidor 02. Ele também "ouve" o Servidor 02 para trazer novidades de volta.
 3.  **Servidor 02 (O Hub Central)**: É o coração do chat. Ele recebe mensagens de todo mundo (Servidor 01 e Cliente 02) e faz um **Broadcast** (espalha a mensagem para todos os conectados).
 4.  **Cliente 02**: Conecta-se diretamente ao Servidor 02 (Porta 50001).
+5.  **Cliente 03**: Conecta-se diretamente ao Servidor 02 (Porta 50001).
 
 ### O Caminho da Mensagem
 Quando o **Cliente 01** envia um "Oi":
