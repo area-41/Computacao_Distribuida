@@ -22,7 +22,8 @@ A implementação de threads (threading.Thread) foi crucial para desacoplar a In
 ### Socket Programming: 
 O desafio do "bind" e da interface correta nos ensinou que a rede é uma camada física viva, onde configurações de firewall e interfaces de rede (Wi-Fi vs Ethernet) ditam o sucesso da comunicação.
 
-## 🕊️ A Filosofia: Sincronia nas Mensagens
+## 🕊️ A Filosofia 
+###Sincronia nas Mensagens
 O aspecto mais profundo deste projeto surge quando olhamos para os dados transmitidos. Ao utilizar arquivos .txt de diferentes religiões (Bíblia, Alcorão, Budismo, Taoismo, etc.), o sistema revela uma verdade oculta:
 
 No nível dos pacotes, a sabedoria é indistinguível.
@@ -37,7 +38,7 @@ O fluxo da natureza do Taoismo encontra a ordem divina do Islã.
 
 Ao misturarmos as threads de transmissão, criamos um "Multicast Universal", onde o receptor não vê mais rótulos, mas sim um fluxo constante de ética, compaixão e busca pelo sentido da vida. Este projeto mostra que, assim como os pacotes de rede convergem para o mesmo endereço IP, as religiões, em sua essência, convergem para a mesma experiência humana.
 
-###️ Como Executar
+### Como Executar
 Pré-requisitos
 Python 3.10+
 
