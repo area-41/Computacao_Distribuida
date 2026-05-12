@@ -1,5 +1,5 @@
-SyncFaith: Multicast Multithreading & Universal Wisdom
-Este projeto é uma prova de conceito que une engenharia de rede de baixa latência (UDP Multicast) com uma reflexão filosófica sobre a convergência das grandes tradições espirituais.
+# SyncFaith: Multicast Multithreading & Universal Wisdom
+Este pequeno estudo é uma prova de conceito que une engenharia de rede de baixa latência (UDP Multicast) com uma reflexão filosófica sobre a convergência das grandes tradições espirituais.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TCP/IP](https://img.shields.io/badge/TCP/IP-Sockets-red?style=for-the-badge)
@@ -46,7 +46,7 @@ Arquivos de texto na pasta raiz (biblia.txt, budista.txt, etc.)
 Servidor (O Transmissor)
 O servidor permite escolher qual "frequência" espiritual transmitir.
 
-    python God.py
+        python God.py
 
 Cliente (O Receptor)
 O cliente sintoniza no grupo 224.1.1.7:50000 e recebe o fluxo misto de sabedoria.
