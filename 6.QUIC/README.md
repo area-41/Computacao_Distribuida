@@ -1,4 +1,17 @@
+Estudando sobre protocolos TCP e UDP, extendi o estudo para o QUIC, mais moderno e seguro.
+
+
 ## Análise Técnica do Código
+
+- Handshake Exponencial:
+  Diferente do TCP, que precisaria de várias trocas de pacotes para o "aperto de mão" e depois para o TLS (criptografia), o cliente e servidor resolveram tudo isso quase instantaneamente no primeiro contato.
+
+- UDP como Transporte:
+  Por baixo dos panos, os pacotes viajaram via UDP, mas com a garantia de entrega que o aioquic implementa.
+
+- Stream Bidirecional:
+  Abriu um stream_id, enviou os dados e o servidor utilizou o mesmo ID para responder, demonstrando a capacidade de multiplexação do protocolo.
+
 
 ### Multiplexação por Streams: 
 Note o uso de event.
