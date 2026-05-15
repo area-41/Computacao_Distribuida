@@ -1,0 +1,16 @@
+{
+    "name": "Ambiente Python QUIC",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+
+    // Instala as dependências de sistema e do Python assim que o container for criado
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y openssl && pip install aioquic && openssl req -newkey rsa:2048 -nodes -keyout chave.pem -x509 -days 365 -out certificado.pem -subj '/CN=localhost'",
+
+    // Configurações do VS Code dentro do Codespaces
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python" // Já instala a extensão de Python automaticamente
+            ]
+        }
+    }
+}
