@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "pergunta": "Qual protocolo é orientado à conexão?",
+        "alternativas": ["A) UDP", "B) TCP", "C) ICMP"],
+        "correta": "B"
+    },
+    {
+        "id": 2,
+        "pergunta": "O que significa a sigla QUIC?",
+        "alternativas": ["A) Quick UDP Internet Connections", "B) Query Unicast Internet Control", "C) Quick Universal Interface Control", "D) Quality User Internet Connection"],
+        "correta": "A"
+    },
+    {
+        "id": 3,
+        "pergunta": "Qual camada do modelo OSI o protocolo UDP pertence?",
+        "alternativas": ["A) Aplicação", "B) Rede", "C) Transporte", "D) Física"],
+        "correta": "C"
+    }
+]
