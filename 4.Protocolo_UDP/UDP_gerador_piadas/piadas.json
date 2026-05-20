@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Por que o desenvolvedor faliu?",
+    "resposta": "Porque ele não teve 'classe' e perdeu todas as suas 'referências'."
+  },
+  {
+    "id": 2,
+    "pergunta": "O que o software disse para o hardware?",
+    "resposta": "Roda o que eu digo, mas não olha como eu sou por dentro."
+  },
+  {
+    "id": 3,
+    "pergunta": "Por que os músicos são ótimos em lógica?",
+    "resposta": "Porque eles entendem tudo de algoritmos (algo-ritmos)."
+  }
+]

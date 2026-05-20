@@ -1,3 +1,19 @@
+from tkinter import *
+from tkinter import ttk
+import socket
+from threading import Thread
+import random
+import time
+from pathlib import Path
+
+
+conexao = None
+HOST = '127.0.0.1'
+PORTA = 50000
+
+laco_ativo = False   # Controle while
+
+
 def iniciar_cliente_udp():
     global conexao
     try:
@@ -49,19 +65,6 @@ def thread_laco_envio():
     laco_btn.after(0, lambda: laco_btn.config(text="Laço", state=NORMAL))
     escreve_msg("Laço encerrado.\n")
 
-from tkinter import *
-from tkinter import ttk
-import socket
-from threading import Thread
-import random
-import time
-from pathlib import Path
-
-conexao = None
-HOST = '127.0.0.1'
-PORTA = 50000
-
-laco_ativo = False   # Controle while
 
 def atualizar_text_area(msg):
     text_area.insert(END, msg)

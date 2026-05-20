@@ -10,7 +10,7 @@ Este pequeno estudo é uma prova de conceito que une engenharia de rede de baixa
 *Clique na imagem acima para assistir ao vídeo do projeto em funcionamento.*
 
 ---
-## 🧠 O Aprendizado Técnico
+## O Aprendizado Técnico
 O desenvolvimento deste sistema permitiu explorar três pilares fundamentais da computação distribuída:
 
 ### UDP Multicast (RFC 1112): 
@@ -24,19 +24,16 @@ O desafio do "bind" e da interface correta nos ensinou que a rede é uma camada 
 
 ## 🕊️ A Filosofia 
 ###Sincronia nas Mensagens
-O aspecto mais profundo deste projeto surge quando olhamos para os dados transmitidos. Ao utilizar arquivos .txt de diferentes religiões (Bíblia, Alcorão, Budismo, Taoismo, etc.), o sistema revela uma verdade oculta:
-
-No nível dos pacotes, a sabedoria é indistinguível.
 
 Ao transmitir mensagens religiosas via UDP, os bits não carregam dogmas, apenas informações. Quando o cliente recebe essas mensagens em uma "corrente" contínua, as fronteiras entre as religiões começam a se dissolver:
 
 O conceito de paz interior do Budismo ecoa no refrigério da alma do Cristianismo.
-
 A ação sem apego do Hinduísmo se mistura à caridade Espírita.
-
 O fluxo da natureza do Taoismo encontra a ordem divina do Islã.
 
-Ao misturarmos as threads de transmissão, criamos um "Multicast Universal", onde o receptor não vê mais rótulos, mas sim um fluxo constante de ética, compaixão e busca pelo sentido da vida. Este projeto mostra que, assim como os pacotes de rede convergem para o mesmo endereço IP, as religiões, em sua essência, convergem para a mesma experiência humana.
+Ao misturar as threads de transmissão, cria-se um "Multicast Universal", onde o receptor não vê mais rótulos, mas sim um fluxo constante de ética, compaixão e busca pelo sentido da vida. Este projeto mostra que, 
+assim como os pacotes de rede convergem para o mesmo endereço IP, 
+as religiões, em sua essência, convergem para a mesma experiência humana.
 
 ### Como Executar
 Pré-requisitos
