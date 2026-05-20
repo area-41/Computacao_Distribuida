@@ -4,6 +4,10 @@ Esta pasta contém uma implementação prática de um sistema de mensageria dist
 
 Teste desenvolvido como parte das atividades práticas do curso da **UTFPR** (Universidade Tecnológica Federal do Paraná).
 
+
+<img width="800" height="500" alt="Captura de Tela (280)" src="https://github.com/user-attachments/assets/a86100ff-dd57-4309-8ec6-052d0d28766f" />
+
+
 ---
 
 ### Arquitetura do Sistema
@@ -18,12 +22,12 @@ O Redis atua como um **Message Broker** (Intermediário de Mensagens) de alta pe
 ### Estrutura de Arquivos da Pasta
 
 
-Conectado_Redis_UV/
-├── .venv/               # Ambiente virtual isolado gerenciado pelo UV
-├── app_grafica.py       # Aplicação completa com Interface Gráfica Tkinter e Threads
-├── cliente.py           # Script alternativo em modo texto (Console) para envio de mensagens
-├── servidor.py          # Script alternativo em modo texto (Console) para recepção de mensagens
-└── README.md            # Documentação do projeto (este arquivo)
+        Conectado_Redis_UV/
+        ├── .venv/               # Ambiente virtual isolado gerenciado pelo UV
+        ├── app_grafica.py       # Aplicação completa com Interface Gráfica Tkinter e Threads
+        ├── cliente.py           # Script alternativo em modo texto (Console) para envio de mensagens
+        ├── servidor.py          # Script alternativo em modo texto (Console) para recepção de mensagens
+        └── README.md            # Documentação do projeto (este arquivo)
 
 
 
@@ -53,6 +57,8 @@ No VS Code, abra o terminal embutido (`Ctrl + '`) dentro da pasta do projeto. O 
 
 
         source .venv/Scripts/activate
+
+<img width="245" height="67" alt="usingUVnoVSCode" src="https://github.com/user-attachments/assets/418d9e60-0805-4791-bf68-f3d6cbb31a7b" />
 
 
 
@@ -86,6 +92,8 @@ Caso queira testar a infraestrutura de forma puramente textual:
 
         python cliente.py
 
+
+<img width="217" height="121" alt="01" src="https://github.com/user-attachments/assets/14ecfbe2-3429-4d67-bfd2-4108d78b2c08" />
 
 
 ### Aprendizados e Conceitos Chave 🧠
