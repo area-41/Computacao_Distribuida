@@ -7,7 +7,7 @@ def executar_cliente(id_cliente="Cliente-1"):
     
     try:
         # Busca o objeto remoto exclusivamente pelo Name Server
-        gerador = Pyro5.api.Proxy("PYRONAME:objeto.randomico")
+        gerador = Pyro5.api.Proxy("PYRONAME:objeto.randomico@127.0.0.1")
         
         # Testando método: inteiro_aleatorio
         res1 = gerador.inteiro_aleatorio()

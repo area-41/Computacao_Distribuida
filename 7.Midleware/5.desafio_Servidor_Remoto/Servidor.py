@@ -21,26 +21,26 @@ class GeradorRandomico:
         return [random.randint(inicio, fim) for _ in range(n)]
 
 def iniciar_servidor():
-    # Inicializa o daemon do Pyro
-    daemon = Pyro5.api.Daemon()
+    # 1. Garante que o Daemon escute no localhost
+    daemon = Pyro5.api.Daemon(host="127.0.0.1")
     
-    # Localiza o Name Server rodando na rede
     try:
-        ns = Pyro5.api.locate_ns()
+        # 2. Garante que a busca pelo Name Server vá direto para o localhost
+        ns = Pyro5.api.locate_ns(host="127.0.0.1")
     except Exception as e:
-        print("Erro: Não foi possível encontrar o Name Server. Certifique-se de que ele está rodando (pyro5-ns).")
+        print(f"Erro: Não foi possível encontrar o Name Server. Detalhes: {e}")
         return
 
-    # Registra a classe no daemon
+    # 3. Registra o objeto no Daemon e vincula ao Name Server
     uri = daemon.register(GeradorRandomico)
-    
-    # Registra o objeto no Name Server com um nome amigável
     ns.register("objeto.randomico", uri)
     
-    print(f"Servidor pronto. Objeto remoto registrado com a URI:\n{uri}")
-    print("Aguardando requisições...")
+    print("========================================")
+    print(" Servidor OBJETO.RANDOMICO Ativo!")
+    print(" Status: Registrado no Name Server local.")
+    print(" Aguardando requisições dos clientes... ")
+    print("========================================")
     
-    # Inicia o loop de escuta do servidor
     daemon.requestLoop()
 
 if __name__ == "__main__":
