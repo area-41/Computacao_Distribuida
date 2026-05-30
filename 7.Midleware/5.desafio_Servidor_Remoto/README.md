@@ -56,6 +56,8 @@ Em um terminal exclusivo, inicialize o Name Server travando o nó no endereço d
 
         uv run pyro5-ns -n 127.0.0.1
 
+<img width="275" height="70" alt="image" src="https://github.com/user-attachments/assets/8a681c6d-700a-4c3c-8699-e945b5fa7dd2" />
+
 
 *Mantenha este terminal ativo.*
 
@@ -65,6 +67,8 @@ Abra um segundo terminal, navegue até a pasta do desafio e execute o script do 
 
 
         uv run Servidor.py
+
+<img width="444" height="206" alt="image" src="https://github.com/user-attachments/assets/9f5b84ff-f8d5-4f63-b1a4-fff09b08bc72" />
 
 
 O console exibirá a confirmação de que o objeto está ativo e pronto para receber requisições de threads externas.
@@ -87,6 +91,9 @@ Para validar as propriedades de concorrência do middleware e o pool de threads 
 * **Terminal Cliente 3:**
 
         uv run Cliente.py Teste
+
+
+<img width="385" height="108" alt="image" src="https://github.com/user-attachments/assets/0abdff05-2dd8-4526-bcc5-e82d3b2a865b" />
 
 
 
