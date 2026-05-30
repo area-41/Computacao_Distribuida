@@ -27,6 +27,8 @@ def executar_cliente(id_cliente="Cliente-1"):
         # Testando método: n_inteiros_no_intervalo
         res4 = gerador.n_inteiros_no_intervalo(4, 500, 1000)
         print(f"[{id_cliente}] 4 aleatórios entre 500 e 1000: {res4}")
+
+        print(f"--- {id_cliente} Finalizado com Sucesso! ---\n")
         
     except Exception as e:
         print(f"Erro no {id_cliente}: {e}")
