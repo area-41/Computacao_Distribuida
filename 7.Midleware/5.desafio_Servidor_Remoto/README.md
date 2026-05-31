@@ -112,6 +112,17 @@ Quando executado com sucesso, a saída do cliente requisitando os métodos remot
 
 No console do Servidor, é possível observar as chamadas sendo processadas sob demanda à medida que os clientes realizam as requisições remotas, validando o ciclo de vida distribuído.
 
+Realizando um teste entre UV e Python:
+
+Python:
+
+<img width="437" height="156" alt="Tempo_Python" src="https://github.com/user-attachments/assets/96a8376f-8903-484c-9315-50e0328f937d" />
+
+UV:
+
+<img width="450" height="172" alt="Tempo_UV" src="https://github.com/user-attachments/assets/c09bce8c-b5dd-44d2-82c0-f4454be60134" />
+
+
 ---
 
 *Desafio prático desenvolvido para consolidar os conceitos de Middleware, RMI (Remote Method Invocation), Name Server Resolution e Concorrência em Sistemas Distribuídos.*
