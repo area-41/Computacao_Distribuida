@@ -37,7 +37,7 @@ def executar_cliente_quatro(id_cliente="Cliente-4"):
             # ----------------------------------------
             
             print(f" -> Gerados {quantidade} números entre {inicio} e {fim}: {resultados}")
-            print(f" ⏱️  Tempo da requisição RMI: {latencia_rmi:.2f} ms")
+            print(f"Tempo da requisição RMI: {latencia_rmi:.2f} ms")
             
             # Delay para acompanhamento visual de concorrência
             time.sleep(1.5)
@@ -56,12 +56,12 @@ def executar_cliente_quatro(id_cliente="Cliente-4"):
         variacao_memoria = memoria_final - memoria_inicial
         
         print("\n" + "="*50)
-        print(f"📊 RELATÓRIO DE DESEMPENHO - {id_cliente}")
+        print(f"RELATÓRIO DE DESEMPENHO - {id_cliente}")
         print("="*50)
-        print(f"⏱️  Tempo total de execução do script: {tempo_total_gasto:.2f} segundos (incluindo sleeps)")
-        print(f"💾 Memória RAM Inicial: {memoria_inicial:.2f} MB")
-        print(f"💾 Memória RAM Final: {memoria_final:.2f} MB")
-        print(f"📈 Variação de Memória durante o teste: {variacao_memoria:+.4f} MB")
+        print(f"Tempo total de execução do script: {tempo_total_gasto:.2f} segundos (incluindo sleeps)")
+        print(f"Memória RAM Inicial: {memoria_inicial:.2f} MB")
+        print(f"Memória RAM Final: {memoria_final:.2f} MB")
+        print(f"Variação de Memória durante o teste: {variacao_memoria:+.4f} MB")
         print("="*50)
 
 if __name__ == "__main__":
